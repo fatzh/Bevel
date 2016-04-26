@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('#password-container').find('input').val('').focus();
+
   var authenticating = false;
 
   window.authentication_complete = function () {

@@ -42,11 +42,11 @@ input[type="text"], input[type="password"] {
 
 html {
   height: 100%;
-  background-color: hsl(0, 0%, 13%);
+  background-color: #5A805D;
 }
 
 body {
-  color: hsl(0, 0%, 53%);
+  color: #222;
 
   opacity: 0;
 
@@ -103,8 +103,8 @@ input {
   height: 32px;
   font-size: 20px;
 
-  border: 2px solid hsl(0, 0%, 25%);
-  background-color: hsl(0, 0%, 58%);
+  border: 2px solid #EEEEEE;
+  background-color: #FFFFFF;
 
   padding-left: 6px;
   padding-right: 6px;
