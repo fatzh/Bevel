@@ -63,6 +63,7 @@ $(document).ready(function() {
     return lightdm[$(this).text().toLowerCase()]();
   })
 
+
   $('.user').on('click', function(event, navigate) {
     if (authenticating) return false;
 
@@ -176,6 +177,9 @@ $(document).ready(function() {
         break;
     }
   });
+
+  // automatically select the first user
+  $('.user').first().click();
 
   /*
   var $background = $('<img />', {src: $('.user').eq(0).data('user').background, id: 'background'}).appendTo('body');
